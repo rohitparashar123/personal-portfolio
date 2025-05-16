@@ -154,7 +154,7 @@ export function Projects() {
                   <CardHeader>
                     <CardTitle className="flex items-center justify-between">
                       <span>{project.title}</span>
-                      <HeartIcon className="w-5 h-5 text-red-500 cursor-pointer" />
+                      <ExternalLinkIcon className="w-5 h-5 text-red-500 cursor-pointer" />
                     </CardTitle>
                     <div className="flex flex-wrap gap-2 mt-2">
                       {project.tags.map((tag) => (
@@ -169,11 +169,11 @@ export function Projects() {
                     </div>
                   </CardHeader>
                   <CardContent className="flex-grow">
-                    <CardDescription className="line-clamp-3">
+                    <CardDescription className="line-clamp-8">
                       {project.description}
                     </CardDescription>
                   </CardContent>
-                  <CardFooter className="flex justify-between gap-4 pt-4">
+                  {/* <CardFooter className="flex justify-between gap-4 pt-4">
                     <Button variant="outline" size="sm" className="flex-1 glass-effect" asChild>
                       <a 
                         href={"/#projects"} 
@@ -196,7 +196,7 @@ export function Projects() {
                         Demo
                       </a>
                     </Button>
-                  </CardFooter>
+                  </CardFooter> */}
                 </Card>
               </motion.div>
             ))}
