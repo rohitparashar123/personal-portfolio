@@ -23,8 +23,6 @@ export function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
-
-      // Update active section based on scroll position
       const sections = navItems.map((item) => item.href.substring(1));
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section);

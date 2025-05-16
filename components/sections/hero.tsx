@@ -55,7 +55,7 @@ export function Hero() {
               transition={{ delay: 0.5, duration: 0.5 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <Button
+              {/* <Button
                 size="lg"
                 className="group text-white relative overflow-hidden glass-effect"
                 asChild
@@ -70,7 +70,7 @@ export function Hero() {
                   />
                   <ArrowRightIcon className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform relative z-10" />
                 </a>
-              </Button>
+              </Button> */}
               <Button
                 size="lg"
                 variant="outline"
@@ -79,6 +79,16 @@ export function Hero() {
               >
                 <a href="#contact">
                   Contact Me
+                </a>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="glass-effect group"
+                asChild
+              >
+                <a href="/assets/doc/rohit_parashar_frontend_developer.pdf" target="_blank">
+                  Resume
                 </a>
               </Button>
             </motion.div>

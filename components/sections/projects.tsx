@@ -141,14 +141,14 @@ export function Projects() {
                       transition={{ duration: 0.3 }}
                       className="absolute inset-0 bg-black/60 flex items-center justify-center gap-4"
                     >
-                      <Button size="sm" variant="secondary" className="glass-effect">
+                      {/* <Button size="sm" variant="secondary" className="glass-effect">
                         <EyeIcon className="w-4 h-4 mr-1" />
                         <span>Preview</span>
                       </Button>
                       <Button size="sm" variant="secondary" className="glass-effect">
                         <GitForkIcon className="w-4 h-4 mr-1" />
                         <span>Fork</span>
-                      </Button>
+                      </Button> */}
                     </motion.div>
                   </div>
                   <CardHeader>
@@ -176,8 +176,8 @@ export function Projects() {
                   <CardFooter className="flex justify-between gap-4 pt-4">
                     <Button variant="outline" size="sm" className="flex-1 glass-effect" asChild>
                       <a 
-                        href={project.githubUrl} 
-                        target="_blank" 
+                        href={"/#projects"} 
+                        target="_self" 
                         rel="noopener noreferrer"
                         className="flex items-center justify-center"
                       >
