@@ -23,7 +23,7 @@ export default function RootLayout({
       <link rel="icon" href="/assets/images/logo.png" type="image/png" />
       <body className={inter.className}>
         <Providers>
-          <div className="flex min-h-screen flex-col bg-background transition-colors duration-300">
+          <div className="flex min-h-screen flex-col bg-background transition-colors duration-300 !overflow-x-hidden">
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />

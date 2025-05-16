@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden"
+      className="min-h-0 md:min-h-screen flex items-center justify-center section-padding relative overflow-hidden"
     >
       <div className="absolute inset-0 bg-grid-white/10 bg-grid-16 [mask-image:radial-gradient(white,transparent_85%)] pointer-events-none" />
       
