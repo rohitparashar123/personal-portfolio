@@ -84,7 +84,7 @@ export function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="glass-effect group"
+                className="bg-purple-500 group"
                 asChild
               >
                 <a href="/assets/doc/rohit_parashar_frontend_developer.pdf" target="_blank">
